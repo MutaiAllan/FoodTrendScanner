@@ -1,0 +1,95 @@
+.profile-page {
+    font-family: Arial, sans-serif;
+    color: #000;
+    background-color: #f8f8f8;
+    text-align: center;
+  }
+  
+  .header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .header h1 {
+    display: inline-block;
+    margin: 0;
+  }
+  
+  .header nav {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+  }
+  
+  .header nav ul li {
+    display: inline;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .subscribe-button {
+    background-color: yellow;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    float: right;
+    margin-top: -50px; /* Adjust this value to position the button correctly */
+  }
+  
+  .main-content {
+    margin: 20px auto;
+    width: 80%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .menu button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+    flex: 1;
+    margin: 0 5px;
+    border-radius: 4px;
+  }
+  
+  .posts-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .post-card {
+    width: 150px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .post-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .post-title {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+  }
+  
